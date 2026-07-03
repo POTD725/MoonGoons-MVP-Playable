@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320">
+  <rect width="960" height="320" fill="#07101f"/>
+  <g fill="#101d31" stroke="#254d70" stroke-width="2">
+    <rect x="20" y="20" width="140" height="130" rx="16"/><rect x="175" y="20" width="140" height="130" rx="16"/><rect x="330" y="20" width="140" height="130" rx="16"/><rect x="485" y="20" width="140" height="130" rx="16"/><rect x="640" y="20" width="140" height="130" rx="16"/><rect x="795" y="20" width="140" height="130" rx="16"/>
+    <rect x="20" y="170" width="140" height="130" rx="16"/><rect x="175" y="170" width="140" height="130" rx="16"/><rect x="330" y="170" width="140" height="130" rx="16"/><rect x="485" y="170" width="140" height="130" rx="16"/><rect x="640" y="170" width="140" height="130" rx="16"/><rect x="795" y="170" width="140" height="130" rx="16"/>
+  </g>
+  <g font-family="sans-serif" font-weight="700" text-anchor="middle">
+    <text x="90" y="90" font-size="54" fill="#ffb74d">▣</text><text x="90" y="125" font-size="14" fill="#d9f4ff">SUPPLIES</text>
+    <text x="245" y="90" font-size="54" fill="#75d8ff">⚙</text><text x="245" y="125" font-size="14" fill="#d9f4ff">BUILD</text>
+    <text x="400" y="90" font-size="54" fill="#ac8cff">⚗</text><text x="400" y="125" font-size="14" fill="#d9f4ff">RESEARCH</text>
+    <text x="555" y="90" font-size="54" fill="#76e59b">✦</text><text x="555" y="125" font-size="14" fill="#d9f4ff">TRAIN</text>
+    <text x="710" y="90" font-size="54" fill="#ff746c">✹</text><text x="710" y="125" font-size="14" fill="#d9f4ff">AMMO</text>
+    <text x="865" y="90" font-size="54" fill="#75f0d5">✚</text><text x="865" y="125" font-size="14" fill="#d9f4ff">HEAL</text>
+    <text x="90" y="240" font-size="54" fill="#ffdd68">✪</text><text x="90" y="275" font-size="14" fill="#d9f4ff">OFFICER</text>
+    <text x="245" y="240" font-size="54" fill="#ffafde">⌘</text><text x="245" y="275" font-size="14" fill="#d9f4ff">CASE</text>
+    <text x="400" y="240" font-size="54" fill="#d9f4ff">◷</text><text x="400" y="275" font-size="14" fill="#d9f4ff">SPEEDUP</text>
+    <text x="555" y="240" font-size="54" fill="#70b7ff">✈</text><text x="555" y="275" font-size="14" fill="#d9f4ff">MISSION</text>
+    <text x="710" y="240" font-size="54" fill="#f2b0ff">◆</text><text x="710" y="275" font-size="14" fill="#d9f4ff">ALLIANCE</text>
+    <text x="865" y="240" font-size="54" fill="#ffd56a">≋</text><text x="865" y="275" font-size="14" fill="#d9f4ff">RANK</text>
+  </g>
+</svg>
