@@ -1,0 +1,22 @@
+name: Godot MVP Smoke Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download Godot 4.7
+        run: |
+          curl -L --fail --retry 3 -o godot.zip https://github.com/godotengine/godot/releases/download/4.7-stable/Godot_v4.7-stable_linux.x86_64.zip
+          unzip -q godot.zip -d godot-bin
+          chmod +x godot-bin/Godot_v4.7-stable_linux.x86_64
+      - name: Import project headlessly
+        run: godot-bin/Godot_v4.7-stable_linux.x86_64 --headless --editor --path . --quit
+      - name: Run content smoke check
+        run: godot-bin/Godot_v4.7-stable_linux.x86_64 --headless --path . --script res://scripts/ci_smoke.gd
