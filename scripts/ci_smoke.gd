@@ -9,6 +9,7 @@ const REQUIRED := [
 	"res://assets/graphics/moongoons_logo.svg",
 	"res://assets/graphics/station_hologram.svg",
 	"res://assets/graphics/ops_center.svg",
+	"res://assets/graphics/detention_block.svg",
 	"res://assets/graphics/chief_office.svg",
 	"res://assets/graphics/research_lab.svg",
 	"res://assets/graphics/armory.svg",
