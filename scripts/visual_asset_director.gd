@@ -8,6 +8,7 @@ const LOGO_TEXTURE = preload("res://assets/graphics/moongoons_logo.svg")
 const DEFAULT_ROOM_TEXTURE = preload("res://assets/graphics/station_hologram.svg")
 const ROOM_TEXTURES := {
 	"Ops Center": preload("res://assets/graphics/ops_center.svg"),
+	"Holding Cells": preload("res://assets/graphics/detention_block.svg"),
 	"Chief Office": preload("res://assets/graphics/chief_office.svg"),
 	"Research Lab": preload("res://assets/graphics/research_lab.svg"),
 	"Armory": preload("res://assets/graphics/armory.svg")
